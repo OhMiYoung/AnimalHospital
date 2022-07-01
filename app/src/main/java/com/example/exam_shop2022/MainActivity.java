@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity  {
     int val_price;                  // 제품의 총 가격(배송비 미포함)
     int val_delivery;               // 배송비 ( 제품 총 가격이 10000원 이상이면 0원, 미만이면 2500원)
     int val_pay;                    // 총 결제 금액
-    int selected_product=2000;      // 선택한 제품 한개의 가격
+    int selected_product;      // 선택한 제품 한개의 가격
     int selected_count;             // 선택한 수량
 
     @Override
